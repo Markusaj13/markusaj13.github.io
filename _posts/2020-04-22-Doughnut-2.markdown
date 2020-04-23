@@ -1,0 +1,14 @@
+---
+title: Western
+subtitle: Test project
+layout: default
+modal-id: 1
+date: 2020-04-23
+img: Western-Country-Cowboy-HD-Wallpaper.jpg
+thumbnail: Western-Country-Cowboy-HD-Wallpaper.jpg
+alt: image-alt
+project-date: April 2020
+category: Design
+description: My second test.
+
+---
