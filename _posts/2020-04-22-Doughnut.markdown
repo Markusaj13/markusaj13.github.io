@@ -3,12 +3,12 @@ title: Doughnut
 subtitle: Blender 3D-Design
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: Doughnut6.png
-thumbnail: Doughnut6.png
+date: 2020-04-22
+img: Doughnut09.png
+thumbnail: Doughnut09s.png
 alt: image-alt
 project-date: April 2020
 category: Design
-description: My first attempt at Blender.
+description: The first part of my first attempt at Blender.
 
 ---
