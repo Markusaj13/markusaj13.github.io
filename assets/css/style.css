@@ -403,6 +403,9 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+.skill {
+  font-size: 18pt;
+}
 .skills .progress {
   height: 60px;
   display: block;
@@ -413,7 +416,7 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -1071,4 +1074,10 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+
+.skill-icon {
+  margin-left: 5px;
+
 }
