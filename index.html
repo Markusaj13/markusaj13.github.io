@@ -72,7 +72,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Markus Johansson</h1>
-      <p>I'm a <span class="typed" data-typed-items="UX-Designer, UX-Researcher, Web Designer, Service Designer"></span></p>
+      <p><span class="typed" data-typed-items="UX-Designer, UX-Researcher, Web Designer, Service Designer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -136,12 +136,80 @@
           <p>During professions, educations and through passion, I have collected the following skills:</p>
         </div>
 
-        <div class="row skills-content">
+        <!--MEDIUM SMALL SCREEN SKILL DISPLAY-->
+
+        <div class="row d-flex d-lg-none d-xl-none justify-content-between skills-content">
+
+          <div class="col-sm-6 col-md-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="skill-icon fab fa-html5" aria-hidden="true"></i> </span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="skill-icon fab fa-css3" aria-hidden="true"></i></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="skill-icon fab fa-js" aria-hidden="true"></i></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Jira <i class="skill-icon fab fa-jira"></i> </span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Canva <img class="skill-icon" height="30px" width="30px" src="assets/img/canva-logo.svg" alt="canva-icon"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">InVision <img class="skill-icon" height="30px" width="30px" src="assets/img/invision.svg" alt="invision-icon"></span>
+            </div>
+
+          </div>
+
+          <div class="col-sm-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Figma <i class="skill-icon fab fa-figma" aria-hidden="true"></i></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Blender <img class="skill-icon" height="30px" width="30px" src="assets/img/blender-icon.svg" alt="blender-icon"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">InkScape <img class="skill-icon" height="30px" width="30px" src="assets/img/inkscape.svg" alt="inkscape-icon"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PhotoShop <img class="skill-icon" height="30px" width="30px" src="assets/img/photoshop.svg" alt="photoshop-icon"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PTC Creo CAD <img class="skill-icon" height="30px" width="30px" src="assets/img/ptc-logo.svg" alt="ptc-icon"></span>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SAP <img class="skill-icon" height="40px" width="40px" src="assets/img/sap-logo.svg" alt="sap-icon"></span>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <!-- END MEDIUM SMALL SCREEN SKILL DISPLAY-->
+
+
+        <!--LARGE SCREEN SKILL DISPLAY-->
+
+        <div class="row d-none d-lg-flex skills-content">
 
           <div class="col-lg-4" data-aos="fade-up">
 
             <div class="progress">
-              <span class="skill">HTML  <i class="skill-icon fab fa-html5" aria-hidden="true"></i> </span>
+              <span class="skill">HTML <i class="skill-icon fab fa-html5" aria-hidden="true"></i> </span>
             </div>
 
             <div class="progress">
@@ -199,6 +267,8 @@
 
 
         </div>
+
+        <!-- END LARGE SCREEN SKILL DISPLAY-->
 
       </div>
     </section><!-- End Skills Section -->
@@ -377,8 +447,13 @@
 
         <div class="row" data-aos="fade-in">
 
-          <div class="col-lg-12 d-flex align-items-center">
-            <div class="info">
+          <div class="col-lg-12 d-flex">
+            <div class="info d-flex 
+                         flex-column 
+                         flex-lg-row
+                         flex-xl-row
+              justify-content-lg-around 
+              justify-content-xl-around">
               <div class="address">
                 <a href="https://www.google.se/maps/place/Stockholm/@59.326242,17.8419717,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808"><i class="bi bi-geo-alt"></i></a>
                 <h4>Location:</h4>
