@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #100211;
   overflow-y: auto;
 }
 
@@ -282,7 +282,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #faf3fb;
 }
 
 .section-title {
@@ -534,7 +534,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #3c0541;
+  border-left: 1px solid rgba(60, 5, 65, 0.5);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -777,7 +777,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #f6ebf6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1004,7 +1004,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #100211;
 }
 
 #footer .copyright {
