@@ -939,6 +939,10 @@ section {
   background: #37b3ed;
 }
 
+.thankyou-row {
+margin-top: 100px;
+}
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
